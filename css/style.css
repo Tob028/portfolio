@@ -11,6 +11,13 @@
     font-family: 'Satoshi';
 }
 
+/* Disable horizontal scroll */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 /* Header view */
 
 header {
